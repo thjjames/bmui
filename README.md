@@ -1,6 +1,6 @@
 ## Description
 
-易管业务组件库
+业务组件库
 
 ### Features
 

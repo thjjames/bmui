@@ -5,7 +5,7 @@
       <span>Mui</span>
     </h1>
     <h2 class="mui-demo-home__desc">
-      易管组件库
+      业务组件库
     </h2>
     <div class="mui-demo-home-nav" v-for="(group, index) in config.slice(1)" :key="index">
       <div class="mui-demo-home-nav__title">{{ group.title }}</div>
