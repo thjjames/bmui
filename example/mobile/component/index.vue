@@ -1,7 +1,7 @@
 <template>
   <div class="mui-demo-home">
     <h1 class="mui-demo-home__title">
-      <img :src="'https://turbo-admin.longfor.com/favicon.ico' || 'https://devops.longhu.net/favicon.ico'" />
+      <img src="../mui.webp" />
       <span>Mui</span>
     </h1>
     <h2 class="mui-demo-home__desc">

@@ -8,7 +8,7 @@
 
 ```js
 import Vue from "vue";
-import { BmuiGantt } from "@longfor/bmui";
+import { BmuiGantt } from "bmui";
 
 Vue.use(BmuiGantt);
 ```
@@ -17,7 +17,7 @@ Vue.use(BmuiGantt);
 
 ### 基础用法
 
-动作面板通过 `actions` 属性来定义选项，`actions` 属性是一个由对象构成的数组，数组中的每个对象配置一列，对象格式见文档下方表格。
+甘特图通过 `v-model` 绑定全屏展示的状态， `data` 属性来定义渲染内容。
 
 ```html
 <mui-cell title="全屏模式" is-link @click="isFullscreen = true" />

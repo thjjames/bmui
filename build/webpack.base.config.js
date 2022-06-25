@@ -57,7 +57,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(gif|jpe?g|png|woff2?|svg|eot|ttf|otf)$/,
+        test: /\.(gif|jpe?g|png|webp|woff2?|svg|eot|ttf|otf)$/,
         // exclude: /node_modules/, 
         use: [
           {

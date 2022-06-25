@@ -64,7 +64,13 @@ npm run build
 Install
 
 ```bash
-npm i @longfor/bmui -S
+npm i -S git@github.com:thjjames/bmui
+```
+
+or add `dependencies` in `package.json`
+
+```
+"bmui": "git@github.com:thjjames/bmui"
 ```
 
 按需加载(推荐)
@@ -80,7 +86,7 @@ npm i babel-plugin-import -D
 {
   "plugins": [
     ["import", {
-      "libraryName": "@longfor/bmui",
+      "libraryName": "bmui",
       "libraryDirectory": "es"
     }]
   ]
@@ -90,7 +96,7 @@ npm i babel-plugin-import -D
 module.exports = {
   plugins: [
     ['import', {
-      libraryName: '@longfor/bmui',
+      libraryName: 'bmui',
       libraryDirectory: 'es'
     }]
   ]
@@ -99,19 +105,19 @@ module.exports = {
 
 ```js
 <template>
-  <mui-demo />
+  <bmui-gantt />
 </template>;
 
-// 插件会自动将代码转化为按需引入形式 import Demo from '@longfor/bmui/es/demo'
+// 插件会自动将代码转化为按需引入形式 import Gantt from 'bmui/es/gantt'
 import Vue from "vue";
-import { Demo as BmuiDemo } from "@longfor/bmui";
+import { Gantt as BmuiGantt } from "bmui";
 
 // recommended
 components: {
-  BmuiDemo;
+  BmuiGantt;
 }
 // or
-Vue.use(BmuiDemo);
+Vue.use(BmuiGantt);
 ```
 
 全局加载
@@ -120,10 +126,10 @@ Vue.use(BmuiDemo);
 
 ```js
 <template>
-  <bmui-demo />
+  <bmui-gantt />
 </template>;
 
 import Vue from "vue";
-import Bmui from "@longfor/bmui";
+import Bmui from "bmui";
 Vue.use(Bmui);
 ```

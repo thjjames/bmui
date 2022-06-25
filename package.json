@@ -1,12 +1,12 @@
 {
-  "name": "@longfor/bmui",
+  "name": "bmui",
   "version": "1.0.0",
   "author": {
-    "name": "tianhaojun@longfor.com"
+    "name": "tianhaojun(James) <thjjames@163.com>"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.longhu.net/turbo/fe/yiguan-bmui"
+    "url": "https://github.com/thjjames/bmui"
   },
   "description": "业务组件库 BMui 移动端",
   "main": "./umd/bmui.min.js",
