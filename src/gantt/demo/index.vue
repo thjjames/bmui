@@ -23,1978 +23,678 @@ export default {
     return {
       isShowPicker: false,
       isFullscreen: false,
-      name: '上海宝山天街一期',
+      name: '上海闵行天街一期（正常工期）',
       data: {
-        '科大讯飞重建': {
-          'projectName': '科大讯飞重建',
+        '上海闵行天街一期（正常工期）': {
+          'projectName': '上海闵行天街一期',
           'startDate': '2021-08-01T00:00:00.000+0800',
           'endDate': '2022-08-31T00:00:00.000+0800',
           'status': 1,
-          'actuleRatio': 7.0000,
+          'actualRatio': 7.00,
           'emergencyDegree': 1,
           'engineeringScheduleList': [{
             'engineeringScheduleId': 14116,
-            'milestoneId': 916,
-            'engineeringName': '世建安徽:桩基工程',
+            'engineeringName': '熊氏建设:桩基工程',
             'startDate': '2021-08-01T00:00:00.000+0800',
             'endDate': '2021-08-31T00:00:00.000+0800',
             'status': 1,
-            'actuleRatio': 10.000,
+            'actualRatio': 10.00,
             'emergencyDegree': 1,
-            'actualScheduleWorkday': 3,
-            'planningScheduleWorkDays': 31,
             'processSchedules': [{
               'processScheduleId': 579,
-              'processScheduleName': '李冰清:桩基础施工',
+              'processScheduleName': '熊大:桩基础施工',
               'startDate': '2021-08-01T00:00:00.000+0800',
               'endDate': '2021-08-31T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
             }]
           }, {
             'engineeringScheduleId': 14132,
-            'milestoneId': 916,
-            'engineeringName': '世建安徽:结构工程',
+            'engineeringName': '熊氏建设:结构工程',
             'startDate': '2021-08-01T00:00:00.000+0800',
             'endDate': '2021-08-31T00:00:00.000+0800',
             'status': 2,
-            'actuleRatio': null,
+            'actualRatio': 100.00,
             'emergencyDegree': 0,
-            'actualScheduleWorkday': 8,
-            'planningScheduleWorkDays': 133,
             'processSchedules': [{
               'processScheduleId': 594,
-              'processScheduleName': '史煜坤:模板安装',
+              'processScheduleName': '熊二:模板安装',
               'startDate': '2021-08-01T00:00:00.000+0800',
               'endDate': '2021-08-31T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
             }, {
               'processScheduleId': 593,
-              'processScheduleName': '李冰清:桩头处理',
+              'processScheduleName': '熊大:桩头处理',
               'startDate': '2021-08-04T00:00:00.000+0800',
               'endDate': '2021-08-05T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
             }]
           }, {
             'engineeringScheduleId': 14131,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:抹灰工程',
+            'engineeringName': '熊氏建设:抹灰工程',
             'startDate': '2021-08-09T00:00:00.000+0800',
-            'endDate': '2022-08-31T00:00:00.000+0800',
+            'endDate': '2021-09-31T00:00:00.000+0800',
             'status': 2,
-            'actuleRatio': null,
+            'actualRatio': 100.00,
             'emergencyDegree': 0,
-            'actualScheduleWorkday': 7,
-            'planningScheduleWorkDays': 18,
             'processSchedules': [{
               'processScheduleId': 592,
-              'processScheduleName': '李冰清:墙体抹灰(外抹灰)',
-              'startDate': '2021-08-08T00:00:00.000+0800',
-              'endDate': '2021-08-16T00:00:00.000+0800',
+              'processScheduleName': '熊大:墙体抹灰(外抹灰)',
+              'startDate': '2021-08-09T00:00:00.000+0800',
+              'endDate': '2021-09-16T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
             }]
-          }, {
-            'engineeringScheduleId': 14136,
-            'milestoneId': 916,
-            'engineeringName': '世建安徽:结构工程',
-            'startDate': '2021-08-11T00:00:00.000+0800',
-            'endDate': '2021-08-31T00:00:00.000+0800',
-            'status': 2,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 1,
-            'planningScheduleWorkDays': 7,
-            'processSchedules': [{
-              'processScheduleId': 595,
-              'processScheduleName': '史煜坤:桩头处理',
-              'startDate': '2021-08-11T00:00:00.000+0800',
-              'endDate': '2021-08-11T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14137,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:抹灰工程',
-            'startDate': '2021-08-11T00:00:00.000+0800',
-            'endDate': '2022-08-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
           }, {
             'engineeringScheduleId': 14138,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:机电安装工程',
-            'startDate': '2021-08-11T00:00:00.000+0800',
-            'endDate': '2022-08-31T00:00:00.000+0800',
+            'engineeringName': '熊氏建设:机电安装工程',
+            'startDate': '2021-08-21T00:00:00.000+0800',
+            'endDate': '2022-05-31T00:00:00.000+0800',
             'status': 1,
-            'actuleRatio': 3.0000,
+            'actualRatio': 3.00,
             'emergencyDegree': 1,
-            'actualScheduleWorkday': 6,
-            'planningScheduleWorkDays': 204,
             'processSchedules': [{
               'processScheduleId': 634,
-              'processScheduleName': '史煜坤:电气工程',
-              'startDate': '2021-08-11T00:00:00.000+0800',
-              'endDate': '2021-08-19T00:00:00.000+0800',
+              'processScheduleName': '熊二:电气工程',
+              'startDate': '2021-08-21T00:00:00.000+0800',
+              'endDate': '2021-08-29T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
             }, {
-              'processScheduleId': 640,
-              'processScheduleName': '李冰清:消防水工程施工',
-              'startDate': '2021-08-11T00:00:00.000+0800',
-              'endDate': '2021-10-11T00:00:00.000+0800',
+              'processScheduleId': 636,
+              'processScheduleName': '熊大:电扶梯工程',
+              'startDate': '2021-11-21T00:00:00.000+0800',
+              'endDate': '2022-01-31T00:00:00.000+0800',
               'status': 1,
-              'actuleRatio': 3.0000,
-              'emergencyDegree': 1
+              'actualRatio': 70.00,
+              'emergencyDegree': 0
             }]
           }, {
             'engineeringScheduleId': 14182,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:屋面工程',
-            'startDate': '2021-08-20T00:00:00.000+0800',
+            'engineeringName': '熊氏建设:屋面工程',
+            'startDate': '2021-09-20T00:00:00.000+0800',
             'endDate': '2022-08-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
+            'status': 2,
+            'actualRatio': 100.00,
             'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
             'processSchedules': []
           }, {
             'engineeringScheduleId': 14183,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:防水工程',
-            'startDate': '2021-08-23T00:00:00.000+0800',
-            'endDate': '2021-10-31T00:00:00.000+0800',
+            'engineeringName': '熊氏建设:防水工程',
+            'startDate': '2021-10-23T00:00:00.000+0800',
+            'endDate': '2021-12-31T00:00:00.000+0800',
             'status': 1,
-            'actuleRatio': 0.000,
+            'actualRatio': 89.00,
             'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 78,
             'processSchedules': [{
+              'processScheduleId': 640,
+              'processScheduleName': '熊大:消防水工程施工',
+              'startDate': '2021-10-23T00:00:00.000+0800',
+              'endDate': '2021-10-28T00:00:00.000+0800',
+              'status': 1,
+              'actualRatio': 3.00,
+              'emergencyDegree': 1
+            }, {
               'processScheduleId': 649,
-              'processScheduleName': '史煜坤:地下室防水施工',
-              'startDate': '2021-08-23T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
+              'processScheduleName': '熊二:地下室防水施工',
+              'startDate': '2021-10-23T00:00:00.000+0800',
+              'endDate': '2021-12-31T00:00:00.000+0800',
+              'status': 1,
+              'actualRatio': 88.00,
+              'emergencyDegree': 1
             }]
           }, {
             'engineeringScheduleId': 14184,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:机电安装工程',
-            'startDate': '2021-08-24T00:00:00.000+0800',
-            'endDate': '2021-12-31T00:00:00.000+0800',
+            'engineeringName': '熊氏建设:燃气工程',
+            'startDate': '2021-11-24T00:00:00.000+0800',
+            'endDate': '2022-06-31T00:00:00.000+0800',
             'status': 1,
-            'actuleRatio': 21.0000,
+            'actualRatio': 21.00,
             'emergencyDegree': 1,
-            'actualScheduleWorkday': 13,
-            'planningScheduleWorkDays': 62,
             'processSchedules': [{
               'processScheduleId': 655,
-              'processScheduleName': '李冰清:燃气工程施工',
-              'startDate': '2021-08-24T00:00:00.000+0800',
-              'endDate': '2021-10-24T00:00:00.000+0800',
+              'processScheduleName': '熊大:燃气工程施工',
+              'startDate': '2021-11-24T00:00:00.000+0800',
+              'endDate': '2022-05-24T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
             }]
-          }, {
-            'engineeringScheduleId': 14185,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:防水工程',
-            'startDate': '2021-08-24T00:00:00.000+0800',
-            'endDate': '2021-11-30T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14352,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:抹灰工程',
-            'startDate': '2021-10-13T00:00:00.000+0800',
-            'endDate': '2022-08-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14355,
-            'milestoneId': 0,
-            'engineeringName': '世建安徽:抹灰工程',
-            'startDate': '2021-10-14T00:00:00.000+0800',
-            'endDate': '2022-08-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14504,
-            'milestoneId': 917,
-            'engineeringName': '凤阳建设111:结构工程',
-            'startDate': '2021-10-25T00:00:00.000+0800',
-            'endDate': '2021-12-30T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
           }],
           'projectMilestoneList': [{
             'name': '开工',
-            'code': '7',
             'deadline': '2021-08-01T00:00:00.000+0800',
             'emergencyDegree': 0,
-            'milestoneRate': 0
-          }, {
-            'name': '出±0',
-            'code': '1',
-            'deadline': '2021-11-23T00:00:00.000+0800',
-            'emergencyDegree': 1,
-            'milestoneRate': 0.0702
           }, {
             'name': '主体结构完成',
-            'code': '2',
             'deadline': '2021-12-30T00:00:00.000+0800',
             'emergencyDegree': 0,
-            'milestoneRate': 0
           }]
         },
-        '上海宝山天街一期': {
-          'projectName': '上海宝山天街一期',
+        '上海闵行天街二期（短期）': {
+          'projectName': '上海闵行天街二期',
           'startDate': '2021-08-15T00:00:00.000+0800',
           'endDate': '2021-09-30T00:00:00.000+0800',
           'status': 1,
-          'actuleRatio': 14,
+          'actualRatio': 14.00,
           'emergencyDegree': 1,
           'engineeringScheduleList': [
             {
-              'engineeringScheduleId': 14438,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
+              'engineeringScheduleId': 14038,
+              'engineeringName': '熊氏重工:抹灰工程',
               'startDate': '2021-08-15T00:00:00.000+0800',
               'endDate': '2021-09-30T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': null,
+              'actualRatio': 0,
               'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
               'processSchedules': []
             },
             {
-              'engineeringScheduleId': 14418,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
-              'startDate': '2021-08-18T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': [
-                {
-                  'processScheduleId': 880,
-                  'processScheduleName': '田豪峻:墙体抹灰(内抹灰)',
-                  'startDate': '2021-08-18T00:00:00.000+0800',
-                  'endDate': '2021-08-18T00:00:00.000+0800',
-                  'status': 3,
-                  'actuleRatio': null,
-                  'emergencyDegree': 0
-                }
-              ]
-            },
-            {
-              'engineeringScheduleId': 14443,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
-              'startDate': '2021-08-18T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': []
-            },
-            {
-              'engineeringScheduleId': 14179,
-              'milestoneId': 918,
-              'engineeringName': '乙方工程建设:桩基工程',
+              'engineeringScheduleId': 14066,
+              'engineeringName': '熊氏重工:桩基工程',
               'startDate': '2021-08-19T00:00:00.000+0800',
               'endDate': '2021-08-26T00:00:00.000+0800',
               'status': 1,
-              'actuleRatio': 25,
+              'actualRatio': 25.00,
               'emergencyDegree': 1,
-              'actualScheduleWorkday': 2,
-              'planningScheduleWorkDays': 8,
               'processSchedules': [
                 {
                   'processScheduleId': 665,
-                  'processScheduleName': '田豪峻:桩基础施工',
+                  'processScheduleName': '熊三:桩基础施工',
                   'startDate': '2021-08-19T00:00:00.000+0800',
                   'endDate': '2021-08-26T00:00:00.000+0800',
                   'status': 1,
-                  'actuleRatio': 25,
+                  'actualRatio': 25.00,
                   'emergencyDegree': 1
                 }
               ]
             },
             {
-              'engineeringScheduleId': 14422,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:屋面工程',
+              'engineeringScheduleId': 14122,
+              'engineeringName': '熊氏重工:屋面工程',
               'startDate': '2021-08-20T00:00:00.000+0800',
               'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
+              'status': 3,
+              'actualRatio': 0,
               'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
               'processSchedules': [
                 {
                   'processScheduleId': 891,
-                  'processScheduleName': '田豪峻:屋面面层施工',
+                  'processScheduleName': '熊三:屋面面层施工',
                   'startDate': '2021-08-20T00:00:00.000+0800',
-                  'endDate': '2021-08-20T00:00:00.000+0800',
+                  'endDate': '2021-08-22T00:00:00.000+0800',
                   'status': 3,
-                  'actuleRatio': null,
-                  'emergencyDegree': 0
-                }
-              ]
-            },
-            {
-              'engineeringScheduleId': 14442,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
-              'startDate': '2021-08-21T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': []
-            },
-            {
-              'engineeringScheduleId': 14445,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:屋面工程',
-              'startDate': '2021-08-23T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': []
-            },
-            {
-              'engineeringScheduleId': 14187,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
-              'startDate': '2021-08-24T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 6,
-              'emergencyDegree': 1,
-              'actualScheduleWorkday': 4,
-              'planningScheduleWorkDays': 68,
-              'processSchedules': [
-                {
-                  'processScheduleId': 759,
-                  'processScheduleName': '田豪峻:墙体抹灰(内抹灰，外抹灰)',
-                  'startDate': '2021-08-24T00:00:00.000+0800',
-                  'endDate': '2021-09-26T00:00:00.000+0800',
-                  'status': 1,
-                  'actuleRatio': 6,
-                  'emergencyDegree': 1
-                }
-              ]
-            },
-            {
-              'engineeringScheduleId': 14188,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:屋面工程',
-              'startDate': '2021-08-24T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0,
-              'emergencyDegree': 1,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 2,
-              'processSchedules': [
-                {
-                  'processScheduleId': 690,
-                  'processScheduleName': '田豪峻:屋面面层施工',
-                  'startDate': '2021-08-24T00:00:00.000+0800',
-                  'endDate': '2021-08-24T00:00:00.000+0800',
-                  'status': 0,
-                  'actuleRatio': 0,
-                  'emergencyDegree': 1
-                },
-                {
-                  'processScheduleId': 695,
-                  'processScheduleName': '他还很不错:屋面装饰层施工',
-                  'startDate': '2021-08-24T00:00:00.000+0800',
-                  'endDate': '2021-08-24T00:00:00.000+0800',
-                  'status': 3,
-                  'actuleRatio': null,
-                  'emergencyDegree': 0
-                }
-              ]
-            },
-            {
-              'engineeringScheduleId': 14192,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:机电安装工程',
-              'startDate': '2021-08-24T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 0,
-              'emergencyDegree': 1,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 4,
-              'processSchedules': [
-                {
-                  'processScheduleId': 667,
-                  'processScheduleName': '田豪峻:电气工程',
-                  'startDate': '2021-08-24T00:00:00.000+0800',
-                  'endDate': '2021-08-24T00:00:00.000+0800',
-                  'status': 2,
-                  'actuleRatio': null,
+                  'actualRatio': 0,
                   'emergencyDegree': 0
                 }
               ]
             },
             {
               'engineeringScheduleId': 14202,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:防水工程',
+              'engineeringName': '熊氏重工:防水工程',
               'startDate': '2021-08-24T00:00:00.000+0800',
               'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
+              'status': 3,
+              'actualRatio': 0,
               'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
               'processSchedules': [
                 {
                   'processScheduleId': 770,
-                  'processScheduleName': 'xtaotao:阳台、厨卫、露台防水施工',
+                  'processScheduleName': '熊三:阳台、厨卫、露台防水施工',
                   'startDate': '2021-08-24T00:00:00.000+0800',
-                  'endDate': '2021-08-24T00:00:00.000+0800',
+                  'endDate': '2021-08-25T00:00:00.000+0800',
                   'status': 3,
-                  'actuleRatio': null,
+                  'actualRatio': 0,
                   'emergencyDegree': 0
                 }
               ]
             },
             {
               'engineeringScheduleId': 14231,
-              'milestoneId': 989,
-              'engineeringName': '乙方工程建设:砌体工程',
+              'engineeringName': '熊氏重工:砌体工程',
               'startDate': '2021-09-02T00:00:00.000+0800',
               'endDate': '2021-09-30T00:00:00.000+0800',
               'status': 1,
-              'actuleRatio': 12,
+              'actualRatio': 62.00,
               'emergencyDegree': 1,
-              'actualScheduleWorkday': 2,
-              'planningScheduleWorkDays': 17,
               'processSchedules': [
                 {
                   'processScheduleId': 769,
-                  'processScheduleName': '田豪峻:砌体及二结构施工(砌体，二结构模板，ALC安装)',
+                  'processScheduleName': '熊三:砌体结构施工(砌体，二结构模板，ALC安装)',
                   'startDate': '2021-09-02T00:00:00.000+0800',
-                  'endDate': '2021-09-18T00:00:00.000+0800',
+                  'endDate': '2021-09-28T00:00:00.000+0800',
                   'status': 1,
-                  'actuleRatio': 12,
+                  'actualRatio': 12.00,
                   'emergencyDegree': 1
                 },
                 {
                   'processScheduleId': 780,
-                  'processScheduleName': '以后就叫:电气二次结构预留预埋施工',
-                  'startDate': '2021-09-02T00:00:00.000+0800',
-                  'endDate': '2021-09-02T00:00:00.000+0800',
-                  'status': 3,
-                  'actuleRatio': null,
+                  'processScheduleName': '熊三:电气结构预留预埋施工',
+                  'startDate': '2021-09-22T00:00:00.000+0800',
+                  'endDate': '2021-09-30T00:00:00.000+0800',
+                  'status': 2,
+                  'actualRatio': 100.00,
                   'emergencyDegree': 0
                 }
               ]
-            },
-            {
-              'engineeringScheduleId': 14421,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:机电安装工程',
-              'startDate': '2021-09-19T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 600,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 6,
-              'planningScheduleWorkDays': 1,
-              'processSchedules': [
-                {
-                  'processScheduleId': 894,
-                  'processScheduleName': '豆金贤:电气工程',
-                  'startDate': '2021-09-19T00:00:00.000+0800',
-                  'endDate': '2021-09-19T00:00:00.000+0800',
-                  'status': 3,
-                  'actuleRatio': null,
-                  'emergencyDegree': 0
-                },
-                {
-                  'processScheduleId': 895,
-                  'processScheduleName': '小七:电气工程',
-                  'startDate': '2021-09-19T00:00:00.000+0800',
-                  'endDate': '2021-09-19T00:00:00.000+0800',
-                  'status': 3,
-                  'actuleRatio': null,
-                  'emergencyDegree': 0
-                },
-                {
-                  'processScheduleId': 897,
-                  'processScheduleName': '田豪峻:给排水工程',
-                  'startDate': '2021-09-19T00:00:00.000+0800',
-                  'endDate': '2021-09-19T00:00:00.000+0800',
-                  'status': 0,
-                  'actuleRatio': 600,
-                  'emergencyDegree': 0
-                }
-              ]
-            },
-            {
-              'engineeringScheduleId': 14427,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
-              'startDate': '2021-09-20T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': []
-            },
-            {
-              'engineeringScheduleId': 14441,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
-              'startDate': '2021-09-21T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': []
-            },
-            {
-              'engineeringScheduleId': 14444,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
-              'startDate': '2021-09-21T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': []
-            },
-            {
-              'engineeringScheduleId': 14449,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:屋面工程',
-              'startDate': '2021-09-22T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': []
-            },
-            {
-              'engineeringScheduleId': 14507,
-              'milestoneId': 0,
-              'engineeringName': '乙方工程建设:抹灰工程',
-              'startDate': '2021-09-25T00:00:00.000+0800',
-              'endDate': '2021-09-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': null,
-              'emergencyDegree': 0,
-              'actualScheduleWorkday': 0,
-              'planningScheduleWorkDays': 0,
-              'processSchedules': []
             }
           ],
           'projectMilestoneList': [
             {
-              'name': '出±0',
-              'code': '1',
-              'deadline': '2021-08-26T00:00:00.000+0800',
-              'emergencyDegree': 1,
-              'milestoneRate': 0.25
-            },
-            {
               'name': '砌体完成',
-              'code': '3',
               'deadline': '2021-09-30T00:00:00.000+0800',
               'emergencyDegree': 1,
-              'milestoneRate': 0.1176
             }
           ]
         },
-        '湖南长沙天街项目(旧代码白屏)': {
-          'projectName': '湖南长沙天街项目',
+        '上海龙湖天街（长期-性能测试）': {
+          'projectName': '上海龙湖天街',
           'startDate': '2019-08-12T00:00:00.000+0800',
-          'endDate': '2022-02-09T00:00:00.000+0800',
+          'endDate': '2022-02-12T00:00:00.000+0800',
           'status': 1,
-          'actuleRatio': 9.0000,
+          'actualRatio': 9.00,
           'emergencyDegree': 1,
           'engineeringScheduleList': [{
-            'engineeringScheduleId': 236,
-            'milestoneId': 586,
-            'engineeringName': '乙方工程建设:砌体工程',
+            'engineeringScheduleId': 13830,
+            'engineeringName': '熊氏重工:桩基工程',
             'startDate': '2019-08-12T00:00:00.000+0800',
-            'endDate': '2021-09-01T00:00:00.000+0800',
+            'endDate': '2019-08-16T00:00:00.000+0800',
             'status': 2,
-            'actuleRatio': null,
+            'actualRatio': 100.00,
             'emergencyDegree': 0,
-            'actualScheduleWorkday': 2,
-            'planningScheduleWorkDays': 4,
+            'processSchedules': []
+          }, {
+            'engineeringScheduleId': 13836,
+            'engineeringName': '熊氏重工:砌体工程',
+            'startDate': '2019-08-12T00:00:00.000+0800',
+            'endDate': '2020-09-01T00:00:00.000+0800',
+            'status': 2,
+            'actualRatio': 100.00,
+            'emergencyDegree': 0,
             'processSchedules': [{
-              'processScheduleId': 602,
-              'processScheduleName': '田豪峻:电气二次结构预留预埋施工',
-              'startDate': '2021-08-12T00:00:00.000+0800',
-              'endDate': '2021-08-14T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
               'processScheduleId': 601,
-              'processScheduleName': '田豪峻:砌体及二结构施工(砌体)',
-              'startDate': '2021-08-13T00:00:00.000+0800',
-              'endDate': '2021-08-13T00:00:00.000+0800',
+              'processScheduleName': '熊三:电气结构预留预埋施工',
+              'startDate': '2019-08-12T00:00:00.000+0800',
+              'endDate': '2020-07-14T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 271,
-            'milestoneId': 587,
-            'engineeringName': '乙方工程建设:室内装修工程',
-            'startDate': '2021-05-20T00:00:00.000+0800',
-            'endDate': '2021-06-11T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 558,
-              'processScheduleName': '鲍磊磊:精装湿作业(抹灰)',
-              'startDate': '2021-05-20T00:00:00.000+0800',
-              'endDate': '2021-05-20T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 14181,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-05-20T00:00:00.000+0800',
-            'endDate': '2022-02-02T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 32,
-            'processSchedules': [{
-              'processScheduleId': 647,
-              'processScheduleName': 'cc:墙体抹灰(外抹灰)',
-              'startDate': '2021-05-30T00:00:00.000+0800',
-              'endDate': '2021-06-06T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
             }, {
-              'processScheduleId': 648,
-              'processScheduleName': '金艳:墙体抹灰(内抹灰)',
-              'startDate': '2021-06-01T00:00:00.000+0800',
-              'endDate': '2021-06-24T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 14124,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:屋面工程',
-            'startDate': '2021-05-23T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14112,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-06-02T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 30,
-            'processSchedules': [{
-              'processScheduleId': 576,
-              'processScheduleName': '张仲秋:墙体抹灰(内抹灰，外抹灰)',
-              'startDate': '2021-06-02T00:00:00.000+0800',
-              'endDate': '2021-07-01T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 270,
-            'milestoneId': 586,
-            'engineeringName': '乙方工程建设:砌体工程',
-            'startDate': '2021-06-03T00:00:00.000+0800',
-            'endDate': '2021-06-11T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 267,
-            'milestoneId': 587,
-            'engineeringName': '乙方工程建设:公区装修工程',
-            'startDate': '2021-06-09T00:00:00.000+0800',
-            'endDate': '2021-06-10T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': [{
-              'processScheduleId': 625,
-              'processScheduleName': '张仲秋:墙面、天棚装饰施工',
-              'startDate': '2021-06-09T00:00:00.000+0800',
-              'endDate': '2021-06-10T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 246,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:屋面工程',
-            'startDate': '2021-06-11T00:00:00.000+0800',
-            'endDate': '2021-06-11T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 10,
-            'processSchedules': [{
-              'processScheduleId': 417,
-              'processScheduleName': 'zhngdzg:屋面面层施工',
-              'startDate': '2021-06-11T00:00:00.000+0800',
-              'endDate': '2021-06-11T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 423,
-              'processScheduleName': '鲍磊磊:屋面装饰层施工',
-              'startDate': '2021-06-11T00:00:00.000+0800',
-              'endDate': '2021-06-11T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 266,
-            'milestoneId': 587,
-            'engineeringName': '乙方工程建设:室内装修工程',
-            'startDate': '2021-06-11T00:00:00.000+0800',
-            'endDate': '2021-06-11T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 618,
-              'processScheduleName': '张仲秋:精装湿作业(抹灰)',
-              'startDate': '2021-06-11T00:00:00.000+0800',
-              'endDate': '2021-06-11T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 623,
-              'processScheduleName': '张仲秋:弱电施工',
-              'startDate': '2021-06-11T00:00:00.000+0800',
-              'endDate': '2021-06-11T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 296,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-06-15T00:00:00.000+0800',
-            'endDate': '2021-06-22T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 8,
-            'processSchedules': [{
-              'processScheduleId': 289,
-              'processScheduleName': '朱一一:墙体抹灰(内抹灰)',
-              'startDate': '2021-06-15T00:00:00.000+0800',
-              'endDate': '2021-06-15T00:00:00.000+0800',
+              'processScheduleId': 602,
+              'processScheduleName': '熊三:砌体结构施工(砌体)',
+              'startDate': '2020-07-15T00:00:00.000+0800',
+              'endDate': '2020-09-01T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
-              'processScheduleId': 290,
-              'processScheduleName': '朱一一:墙体抹灰(内抹灰)',
-              'startDate': '2021-06-15T00:00:00.000+0800',
-              'endDate': '2021-06-15T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
             }]
           }, {
-            'engineeringScheduleId': 357,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:屋面工程',
-            'startDate': '2021-06-18T00:00:00.000+0800',
-            'endDate': '2021-06-27T00:00:00.000+0800',
+            'engineeringScheduleId': 13886,
+            'engineeringName': '熊氏重工:结构工程',
+            'startDate': '2020-02-22T00:00:00.000+0800',
+            'endDate': '2021-11-26T00:00:00.000+0800',
             'status': 0,
-            'actuleRatio': 8.0000,
+            'actualRatio': 0,
             'emergencyDegree': 1,
-            'actualScheduleWorkday': 1,
-            'planningScheduleWorkDays': 12,
-            'processSchedules': [{
-              'processScheduleId': 338,
-              'processScheduleName': '张春林:屋面面层施工',
-              'startDate': '2021-06-18T00:00:00.000+0800',
-              'endDate': '2021-06-18T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 14.0000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 603,
-              'processScheduleName': '田豪峻:屋面装饰层施工',
-              'startDate': '2021-06-18T00:00:00.000+0800',
-              'endDate': '2021-06-22T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 358,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:防水工程',
-            'startDate': '2021-06-18T00:00:00.000+0800',
-            'endDate': '2021-06-28T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 100.000,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 5,
-            'planningScheduleWorkDays': 5,
-            'processSchedules': [{
-              'processScheduleId': 340,
-              'processScheduleName': '张春林:地下室防水施工',
-              'startDate': '2021-06-18T00:00:00.000+0800',
-              'endDate': '2021-06-22T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
-              'processScheduleId': 656,
-              'processScheduleName': '张仲秋:阳台、厨卫、露台防水施工',
-              'startDate': '2021-06-18T00:00:00.000+0800',
-              'endDate': '2021-06-18T00:00:00.000+0800',
-              'status': 4,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 359,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-06-18T00:00:00.000+0800',
-            'endDate': '2021-06-28T00:00:00.000+0800',
-            'status': 2,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 2,
-            'planningScheduleWorkDays': 6,
-            'processSchedules': [{
-              'processScheduleId': 369,
-              'processScheduleName': '张春林:墙体抹灰(内抹灰，外抹灰)',
-              'startDate': '2021-06-18T00:00:00.000+0800',
-              'endDate': '2021-06-23T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 375,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:防水工程',
-            'startDate': '2021-06-21T00:00:00.000+0800',
-            'endDate': '2021-06-29T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': [{
-              'processScheduleId': 624,
-              'processScheduleName': '张仲秋:地下室防水施工',
-              'startDate': '2021-06-21T00:00:00.000+0800',
-              'endDate': '2021-06-23T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
-              'processScheduleId': 631,
-              'processScheduleName': '张仲秋:阳台、厨卫、露台防水施工',
-              'startDate': '2021-06-23T00:00:00.000+0800',
-              'endDate': '2021-06-25T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 376,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-06-22T00:00:00.000+0800',
-            'endDate': '2021-06-25T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 7,
             'processSchedules': [{
               'processScheduleId': 360,
-              'processScheduleName': '张春林:桩头处理',
-              'startDate': '2021-06-22T00:00:00.000+0800',
-              'endDate': '2021-06-22T00:00:00.000+0800',
+              'processScheduleName': '熊大:模板安装',
+              'startDate': '2020-02-22T00:00:00.000+0800',
+              'endDate': '2021-06-23T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
+              'actualRatio': 0,
+              'emergencyDegree': 0
             }, {
-              'processScheduleId': 361,
-              'processScheduleName': '张春林:砖胎膜砌筑',
-              'startDate': '2021-06-22T00:00:00.000+0800',
-              'endDate': '2021-06-22T00:00:00.000+0800',
+              'processScheduleId': 364,
+              'processScheduleName': '熊熊:桩头处理',
+              'startDate': '2020-02-22T00:00:00.000+0800',
+              'endDate': '2021-06-24T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': 0.000,
+              'actualRatio': 0,
               'emergencyDegree': 1
             }, {
               'processScheduleId': 370,
-              'processScheduleName': '张春林:砖胎膜砌筑',
-              'startDate': '2021-06-22T00:00:00.000+0800',
-              'endDate': '2021-06-22T00:00:00.000+0800',
+              'processScheduleName': '熊大:砖胎膜砌筑',
+              'startDate': '2020-02-24T00:00:00.000+0800',
+              'endDate': '2021-09-25T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': 0.000,
+              'actualRatio': 0,
               'emergencyDegree': 1
             }, {
               'processScheduleId': 371,
-              'processScheduleName': '张春林:砖胎膜砌筑',
-              'startDate': '2021-06-22T00:00:00.000+0800',
-              'endDate': '2021-06-22T00:00:00.000+0800',
+              'processScheduleName': '熊二:砖胎膜砌筑',
+              'startDate': '2020-02-24T00:00:00.000+0800',
+              'endDate': '2021-09-25T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': 0.000,
+              'actualRatio': 0,
               'emergencyDegree': 1
             }, {
               'processScheduleId': 372,
-              'processScheduleName': '张春林:砖胎膜砌筑',
-              'startDate': '2021-06-22T00:00:00.000+0800',
-              'endDate': '2021-06-22T00:00:00.000+0800',
+              'processScheduleName': '熊三:砖胎膜砌筑',
+              'startDate': '2020-02-24T00:00:00.000+0800',
+              'endDate': '2021-09-25T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': 0.000,
+              'actualRatio': 0,
               'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 406,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-06-30T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 2,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 1,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 401,
-              'processScheduleName': '张春林:墙体抹灰(内抹灰，外抹灰)',
-              'startDate': '2021-06-30T00:00:00.000+0800',
-              'endDate': '2021-06-30T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
+            }, {
+              'processScheduleId': 373,
+              'processScheduleName': '熊二:混凝土浇筑',
+              'startDate': '2021-09-22T00:00:00.000+0800',
+              'endDate': '2021-11-26T00:00:00.000+0800',
+              'status': 3,
+              'actualRatio': 0,
               'emergencyDegree': 0
             }]
           }, {
-            'engineeringScheduleId': 407,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:防水工程',
-            'startDate': '2021-06-30T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 11.0000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 13,
-            'planningScheduleWorkDays': 118,
+            'engineeringScheduleId': 13888,
+            'engineeringName': '熊氏重工:结构工程',
+            'startDate': '2020-03-26T00:00:00.000+0800',
+            'endDate': '2020-03-30T00:00:00.000+0800',
+            'status': 3,
+            'actualRatio': 0,
+            'emergencyDegree': 0,
             'processSchedules': [{
-              'processScheduleId': 398,
-              'processScheduleName': '张春林:阳台、厨卫、露台防水施工',
-              'startDate': '2021-06-30T00:00:00.000+0800',
-              'endDate': '2021-07-30T00:00:00.000+0800',
+              'processScheduleId': 673,
+              'processScheduleName': '熊二:内架搭设',
+              'startDate': '2020-03-26T00:00:00.000+0800',
+              'endDate': '2020-03-27T00:00:00.000+0800',
+              'status': 3,
+              'actualRatio': 0,
+              'emergencyDegree': 0
+            }, {
+              'processScheduleId': 674,
+              'processScheduleName': '熊三:外架搭设',
+              'startDate': '2020-03-27T00:00:00.000+0800',
+              'endDate': '2020-03-30T00:00:00.000+0800',
+              'status': 3,
+              'actualRatio': 0,
+              'emergencyDegree': 0
+            }]
+          }, {
+            'engineeringScheduleId': 13865,
+            'engineeringName': '熊氏重工:屋面工程',
+            'startDate': '2020-05-18T00:00:00.000+0800',
+            'endDate': '2020-05-27T00:00:00.000+0800',
+            'status': 0,
+            'actualRatio': 0,
+            'emergencyDegree': 1,
+            'processSchedules': [{
+              'processScheduleId': 640,
+              'processScheduleName': '熊二:屋面面层施工',
+              'startDate': '2020-05-18T00:00:00.000+0800',
+              'endDate': '2020-05-20T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': 0.000,
+              'actualRatio': 0,
               'emergencyDegree': 1
             }, {
-              'processScheduleId': 521,
-              'processScheduleName': '张春林:地下室防水施工',
-              'startDate': '2021-06-30T00:00:00.000+0800',
-              'endDate': '2021-07-30T00:00:00.000+0800',
+              'processScheduleId': 643,
+              'processScheduleName': '熊三:屋面装饰层施工',
+              'startDate': '2020-05-20T00:00:00.000+0800',
+              'endDate': '2020-05-27T00:00:00.000+0800',
+              'status': 0,
+              'actualRatio': 0,
+              'emergencyDegree': 1
+            }]
+          }, {
+            'engineeringScheduleId': 13840,
+            'engineeringName': '熊氏重工:抹灰工程',
+            'startDate': '2020-05-20T00:00:00.000+0800',
+            'endDate': '2021-02-02T00:00:00.000+0800',
+            'status': 0,
+            'actualRatio': 0,
+            'emergencyDegree': 1,
+            'processSchedules': [{
+              'processScheduleId': 606,
+              'processScheduleName': '熊大:墙体抹灰(外抹灰)',
+              'startDate': '2020-05-20T00:00:00.000+0800',
+              'endDate': '2021-02-02T00:00:00.000+0800',
+              'status': 0,
+              'actualRatio': 0,
+              'emergencyDegree': 1
+            }, {
+              'processScheduleId': 607,
+              'processScheduleName': '熊二:墙体抹灰(内抹灰)',
+              'startDate': '2020-06-06T00:00:00.000+0800',
+              'endDate': '2020-06-24T00:00:00.000+0800',
+              'status': 0,
+              'actualRatio': 0,
+              'emergencyDegree': 1
+            }]
+          }, {
+            'engineeringScheduleId': 13897,
+            'engineeringName': '熊氏重工:防水工程',
+            'startDate': '2020-07-30T00:00:00.000+0800',
+            'endDate': '2020-08-31T00:00:00.000+0800',
+            'status': 1,
+            'actualRatio': 11.00,
+            'emergencyDegree': 1,
+            'processSchedules': [{
+              'processScheduleId': 398,
+              'processScheduleName': '熊二:阳台、厨卫、露台防水施工',
+              'startDate': '2020-07-30T00:00:00.000+0800',
+              'endDate': '2020-08-15T00:00:00.000+0800',
+              'status': 0,
+              'actualRatio': 0,
+              'emergencyDegree': 1
+            }, {
+              'processScheduleId': 400,
+              'processScheduleName': '熊二:地下室防水施工',
+              'startDate': '2020-07-30T00:00:00.000+0800',
+              'endDate': '2020-08-31T00:00:00.000+0800',
               'status': 1,
-              'actuleRatio': 19.0000,
+              'actualRatio': 19.00,
               'emergencyDegree': 1
             }, {
               'processScheduleId': 404,
-              'processScheduleName': '鲍磊磊:屋面防水施工',
-              'startDate': '2021-07-06T00:00:00.000+0800',
-              'endDate': '2021-07-10T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 4.0000,
+              'processScheduleName': '熊大:屋面防水施工',
+              'startDate': '2020-08-02T00:00:00.000+0800',
+              'endDate': '2020-08-10T00:00:00.000+0800',
+              'status': 1,
+              'actualRatio': 4.00,
               'emergencyDegree': 1
             }]
           }, {
-            'engineeringScheduleId': 408,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:屋面工程',
-            'startDate': '2021-06-30T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 2,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 29,
-            'planningScheduleWorkDays': 217,
-            'processSchedules': [{
-              'processScheduleId': 399,
-              'processScheduleName': '张春林:屋面面层施工',
-              'startDate': '2021-06-30T00:00:00.000+0800',
-              'endDate': '2021-07-30T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
-              'processScheduleId': 400,
-              'processScheduleName': '张春林:屋面装饰层施工',
-              'startDate': '2021-06-30T00:00:00.000+0800',
-              'endDate': '2021-07-30T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 410,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-06-30T00:00:00.000+0800',
-            'endDate': '2021-06-30T00:00:00.000+0800',
+            'engineeringScheduleId': 13902,
+            'engineeringName': '熊氏重工:机电安装工程',
+            'startDate': '2020-09-06T00:00:00.000+0800',
+            'endDate': '2021-09-31T00:00:00.000+0800',
             'status': 1,
-            'actuleRatio': 0.000,
+            'actualRatio': 97.00,
             'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 604,
-              'processScheduleName': '田豪峻:砖胎膜砌筑',
-              'startDate': '2021-06-30T00:00:00.000+0800',
-              'endDate': '2021-06-30T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 411,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:桩基工程',
-            'startDate': '2021-06-30T00:00:00.000+0800',
-            'endDate': '2021-06-30T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 412,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-06-30T00:00:00.000+0800',
-            'endDate': '2021-06-30T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 543,
-              'processScheduleName': '鲍磊磊:模板安装',
-              'startDate': '2021-06-30T00:00:00.000+0800',
-              'endDate': '2021-06-30T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 13968,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:屋面工程',
-            'startDate': '2021-07-06T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 20,
-            'processSchedules': [{
-              'processScheduleId': 438,
-              'processScheduleName': '张美玲:屋面面层施工',
-              'startDate': '2021-07-06T00:00:00.000+0800',
-              'endDate': '2021-07-15T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 443,
-              'processScheduleName': 'zhngdzg:屋面装饰层施工',
-              'startDate': '2021-07-06T00:00:00.000+0800',
-              'endDate': '2021-07-12T00:00:00.000+0800',
-              'status': 4,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 13969,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:机电安装工程',
-            'startDate': '2021-07-06T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 7.0000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 2,
-            'planningScheduleWorkDays': 29,
             'processSchedules': [{
               'processScheduleId': 439,
-              'processScheduleName': '张美玲:电扶梯工程',
-              'startDate': '2021-07-06T00:00:00.000+0800',
-              'endDate': '2021-07-22T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 6.0000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 449,
-              'processScheduleName': '张美玲:电气工程',
-              'startDate': '2021-07-06T00:00:00.000+0800',
-              'endDate': '2021-07-17T00:00:00.000+0800',
+              'processScheduleName': '熊大:电气工程',
+              'startDate': '2020-09-06T00:00:00.000+0800',
+              'endDate': '2020-09-22T00:00:00.000+0800',
               'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 100.00,
               'emergencyDegree': 0
             }, {
-              'processScheduleId': 473,
-              'processScheduleName': '鲍磊磊:消防水工程施工',
-              'startDate': '2021-07-06T00:00:00.000+0800',
-              'endDate': '2021-07-06T00:00:00.000+0800',
+              'processScheduleId': 441,
+              'processScheduleName': '熊熊:电扶梯工程',
+              'startDate': '2020-09-06T00:00:00.000+0800',
+              'endDate': '2021-09-31T00:00:00.000+0800',
+              'status': 1,
+              'actualRatio': 97.00,
+              'emergencyDegree': 1
+            }, {
+              'processScheduleId': 442,
+              'processScheduleName': '熊熊:消防水工程施工',
+              'startDate': '2020-09-26T00:00:00.000+0800',
+              'endDate': '2020-09-30T00:00:00.000+0800',
               'status': 3,
-              'actuleRatio': null,
+              'actualRatio': 0,
+              'emergencyDegree': 0
+            }, {
+              'processScheduleId': 445,
+              'processScheduleName': '熊二:采暖工程施工',
+              'startDate': '2020-09-27T00:00:00.000+0800',
+              'endDate': '2020-09-31T00:00:00.000+0800',
+              'status': 1,
+              'actualRatio': 54.00,
+              'emergencyDegree': 1
+            }, {
+              'processScheduleId': 446,
+              'processScheduleName': '熊三:空调工程施工',
+              'startDate': '2020-10-01T00:00:00.000+0800',
+              'endDate': '2020-10-31T00:00:00.000+0800',
+              'status': 1,
+              'actualRatio': 60.00,
+              'emergencyDegree': 1
+            }]
+          }, {
+            'engineeringScheduleId': 13856,
+            'engineeringName': '熊氏重工:室内装修工程',
+            'startDate': '2020-10-10T00:00:00.000+0800',
+            'endDate': '2021-06-10T00:00:00.000+0800',
+            'status': 0,
+            'actualRatio': 0,
+            'emergencyDegree': 1,
+            'processSchedules': [{
+              'processScheduleId': 618,
+              'processScheduleName': '熊二:精装湿作业(抹灰)',
+              'startDate': '2020-10-10T00:00:00.000+0800',
+              'endDate': '2021-04-10T00:00:00.000+0800',
+              'status': 0,
+              'actualRatio': 0,
+              'emergencyDegree': 1
+            }, {
+              'processScheduleId': 623,
+              'processScheduleName': '熊二:弱电施工',
+              'startDate': '2021-03-10T00:00:00.000+0800',
+              'endDate': '2021-06-10T00:00:00.000+0800',
+              'status': 3,
+              'actualRatio': 0,
               'emergencyDegree': 0
             }]
           }, {
-            'engineeringScheduleId': 14129,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:机电安装工程',
-            'startDate': '2021-07-06T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
+            'engineeringScheduleId': 13858,
+            'engineeringName': '熊氏重工:公区装修工程',
+            'startDate': '2021-05-01T00:00:00.000+0800',
+            'endDate': '2021-05-02T00:00:00.000+0800',
             'status': 0,
-            'actuleRatio': null,
+            'actualRatio': 0,
             'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
             'processSchedules': []
           }, {
-            'engineeringScheduleId': 13992,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-07-12T00:00:00.000+0800',
-            'endDate': '2021-07-17T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 13,
-            'processSchedules': [{
-              'processScheduleId': 502,
-              'processScheduleName': '鲍磊磊:桩头处理',
-              'startDate': '2021-07-12T00:00:00.000+0800',
-              'endDate': '2021-07-12T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 522,
-              'processScheduleName': '鲍磊磊:给排水一次结构预留预埋',
-              'startDate': '2021-07-12T00:00:00.000+0800',
-              'endDate': '2021-07-17T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 627,
-              'processScheduleName': '张仲秋:电气一次结构预留预埋',
-              'startDate': '2021-07-12T00:00:00.000+0800',
-              'endDate': '2021-07-17T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14017,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-07-14T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 36,
-            'processSchedules': [{
-              'processScheduleId': 484,
-              'processScheduleName': '鲍磊磊:墙体抹灰(内抹灰，外抹灰)',
-              'startDate': '2021-07-14T00:00:00.000+0800',
-              'endDate': '2021-07-31T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 14045,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:屋面工程',
-            'startDate': '2021-07-15T00:00:00.000+0800',
-            'endDate': '2021-07-24T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 40.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 8,
-            'planningScheduleWorkDays': 20,
-            'processSchedules': [{
-              'processScheduleId': 518,
-              'processScheduleName': '张春林:屋面装饰层施工',
-              'startDate': '2021-07-15T00:00:00.000+0800',
-              'endDate': '2021-07-24T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 70.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 524,
-              'processScheduleName': 'cc:屋面装饰层施工',
-              'startDate': '2021-07-15T00:00:00.000+0800',
-              'endDate': '2021-07-24T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14046,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:桩基工程',
-            'startDate': '2021-07-15T00:00:00.000+0800',
-            'endDate': '2021-07-23T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
+            'engineeringScheduleId': 13859,
+            'engineeringName': '熊氏重工:私区装修工程',
+            'startDate': '2021-05-01T00:00:00.000+0800',
+            'endDate': '2021-05-02T00:00:00.000+0800',
+            'status': 3,
+            'actualRatio': 0,
             'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
             'processSchedules': []
           }, {
-            'engineeringScheduleId': 14048,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-07-15T00:00:00.000+0800',
-            'endDate': '2021-07-23T00:00:00.000+0800',
+            'engineeringScheduleId': 13909,
+            'engineeringName': '熊氏重工:小市政工程',
+            'startDate': '2021-09-18T00:00:00.000+0800',
+            'endDate': '2022-02-12T00:00:00.000+0800',
             'status': 0,
-            'actuleRatio': 0.000,
+            'actualRatio': 0,
             'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 3,
             'processSchedules': [{
-              'processScheduleId': 563,
-              'processScheduleName': '鲍磊磊:电气一次结构预留预埋',
-              'startDate': '2021-07-15T00:00:00.000+0800',
-              'endDate': '2021-07-17T00:00:00.000+0800',
+              'processScheduleId': 686,
+              'processScheduleName': '熊三:道路垫层',
+              'startDate': '2021-09-18T00:00:00.000+0800',
+              'endDate': '2021-10-18T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 626,
-              'processScheduleName': '樱花:给排水一次结构预留预埋',
-              'startDate': '2021-07-15T00:00:00.000+0800',
-              'endDate': '2021-07-20T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14050,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-07-15T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 4,
-            'processSchedules': [{
-              'processScheduleId': 559,
-              'processScheduleName': 'zhngdzg:墙体抹灰(外抹灰)',
-              'startDate': '2021-07-15T00:00:00.000+0800',
-              'endDate': '2021-07-18T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 14049,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-07-16T00:00:00.000+0800',
-            'endDate': '2021-07-23T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 636,
-              'processScheduleName': '田豪峻:砖胎膜砌筑',
-              'startDate': '2021-07-16T00:00:00.000+0800',
-              'endDate': '2021-07-16T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 14171,
-            'milestoneId': 589,
-            'engineeringName': '乙方工程建设:小市政工程',
-            'startDate': '2021-07-18T00:00:00.000+0800',
-            'endDate': '2021-08-26T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 9,
-            'processSchedules': [{
-              'processScheduleId': 650,
-              'processScheduleName': '田豪峻:道路垫层',
-              'startDate': '2021-07-18T00:00:00.000+0800',
-              'endDate': '2021-07-18T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
+              'actualRatio': 0,
               'emergencyDegree': 1
             }, {
               'processScheduleId': 687,
-              'processScheduleName': '张仲秋:强电施工',
-              'startDate': '2021-07-19T00:00:00.000+0800',
-              'endDate': '2021-07-25T00:00:00.000+0800',
+              'processScheduleName': '熊二:强电施工',
+              'startDate': '2021-09-29T00:00:00.000+0800',
+              'endDate': '2021-11-25T00:00:00.000+0800',
               'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14115,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-07-20T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 2,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 8,
-            'planningScheduleWorkDays': 14,
-            'processSchedules': [{
-              'processScheduleId': 577,
-              'processScheduleName': '张仲秋:墙体抹灰(内抹灰)',
-              'startDate': '2021-07-25T00:00:00.000+0800',
-              'endDate': '2021-07-31T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
+              'actualRatio': 0,
               'emergencyDegree': 0
             }, {
-              'processScheduleId': 578,
-              'processScheduleName': '金艳:墙体抹灰(外抹灰)',
-              'startDate': '2021-07-25T00:00:00.000+0800',
-              'endDate': '2021-07-31T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14123,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-07-21T00:00:00.000+0800',
-            'endDate': '2021-07-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14078,
-            'milestoneId': 585,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-07-22T00:00:00.000+0800',
-            'endDate': '2021-07-30T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': [{
-              'processScheduleId': 664,
-              'processScheduleName': '2:模板安装',
-              'startDate': '2021-07-22T00:00:00.000+0800',
-              'endDate': '2021-07-30T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
-              'processScheduleId': 685,
-              'processScheduleName': '樱花:混凝土浇筑',
-              'startDate': '2021-07-22T00:00:00.000+0800',
-              'endDate': '2021-07-28T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14079,
-            'milestoneId': 589,
-            'engineeringName': '乙方工程建设:小市政工程',
-            'startDate': '2021-07-22T00:00:00.000+0800',
-            'endDate': '2021-07-26T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 2,
-            'processSchedules': [{
-              'processScheduleId': 605,
-              'processScheduleName': '鲍磊磊:道路垫层',
-              'startDate': '2021-07-22T00:00:00.000+0800',
-              'endDate': '2021-07-22T00:00:00.000+0800',
+              'processScheduleId': 688,
+              'processScheduleName': '熊三:雨污水施工',
+              'startDate': '2021-10-22T00:00:00.000+0800',
+              'endDate': '2022-02-12T00:00:00.000+0800',
               'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 606,
-              'processScheduleName': '田豪峻:雨污水施工',
-              'startDate': '2021-07-22T00:00:00.000+0800',
-              'endDate': '2021-07-22T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
+              'actualRatio': 0,
               'emergencyDegree': 1
             }]
           }, {
-            'engineeringScheduleId': 14082,
-            'milestoneId': 585,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-07-26T00:00:00.000+0800',
-            'endDate': '2021-07-30T00:00:00.000+0800',
+            'engineeringScheduleId': 13920,
+            'engineeringName': '熊氏重工:景观工程',
+            'startDate': '2021-10-12T00:00:00.000+0800',
+            'endDate': '2021-12-26T00:00:00.000+0800',
             'status': 1,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': [{
-              'processScheduleId': 673,
-              'processScheduleName': '2:内架搭设',
-              'startDate': '2021-07-26T00:00:00.000+0800',
-              'endDate': '2021-07-26T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14083,
-            'milestoneId': 585,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-07-27T00:00:00.000+0800',
-            'endDate': '2021-07-30T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': [{
-              'processScheduleId': 632,
-              'processScheduleName': '张仲秋:外架搭设',
-              'startDate': '2021-07-27T00:00:00.000+0800',
-              'endDate': '2021-07-27T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14145,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:机电安装工程',
-            'startDate': '2021-08-12T00:00:00.000+0800',
-            'endDate': '2021-11-09T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 3.0000,
+            'actualRatio': 40.00,
             'emergencyDegree': 1,
-            'actualScheduleWorkday': 4,
-            'planningScheduleWorkDays': 124,
             'processSchedules': [{
-              'processScheduleId': 599,
-              'processScheduleName': '张仲秋:电气工程',
-              'startDate': '2021-08-12T00:00:00.000+0800',
-              'endDate': '2021-10-12T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
+              'processScheduleId': 907,
+              'processScheduleName': '熊二:结构施工',
+              'startDate': '2021-10-12T00:00:00.000+0800',
+              'endDate': '2021-12-26T00:00:00.000+0800',
+              'status': 3,
+              'actualRatio': 0,
               'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14146,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-08-12T00:00:00.000+0800',
-            'endDate': '2021-08-15T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 100.000,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 1,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 600,
-              'processScheduleName': '张仲秋:墙体抹灰(内抹灰)',
-              'startDate': '2021-08-12T00:00:00.000+0800',
-              'endDate': '2021-08-12T00:00:00.000+0800',
+            }, {
+              'processScheduleId': 908,
+              'processScheduleName': '熊大:地面铺装',
+              'startDate': '2021-11-12T00:00:00.000+0800',
+              'endDate': '2021-12-26T00:00:00.000+0800',
               'status': 1,
-              'actuleRatio': 100.000,
+              'actualRatio': 18.00,
               'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14147,
-            'milestoneId': 589,
-            'engineeringName': '乙方工程建设:景观工程',
-            'startDate': '2021-08-13T00:00:00.000+0800',
-            'endDate': '2021-08-26T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 607,
-              'processScheduleName': '张仲秋:结构施工',
-              'startDate': '2021-08-13T00:00:00.000+0800',
-              'endDate': '2021-08-13T00:00:00.000+0800',
+            }, {
+              'processScheduleId': 909,
+              'processScheduleName': '熊二:沥青施工',
+              'startDate': '2021-11-12T00:00:00.000+0800',
+              'endDate': '2021-12-26T00:00:00.000+0800',
               'status': 3,
-              'actuleRatio': null,
+              'actualRatio': 0,
               'emergencyDegree': 0
             }, {
-              'processScheduleId': 639,
-              'processScheduleName': '2:地面铺装',
-              'startDate': '2021-08-13T00:00:00.000+0800',
-              'endDate': '2021-08-13T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
-              'processScheduleId': 666,
-              'processScheduleName': '2:软景施工',
-              'startDate': '2021-08-13T00:00:00.000+0800',
-              'endDate': '2021-08-13T00:00:00.000+0800',
+              'processScheduleId': 910,
+              'processScheduleName': '熊三:软景施工',
+              'startDate': '2021-12-12T00:00:00.000+0800',
+              'endDate': '2021-12-26T00:00:00.000+0800',
               'status': 3,
-              'actuleRatio': null,
+              'actualRatio': 0,
               'emergencyDegree': 0
-            }, {
-              'processScheduleId': 686,
-              'processScheduleName': '张仲秋:沥青施工',
-              'startDate': '2021-08-13T00:00:00.000+0800',
-              'endDate': '2021-08-16T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14166,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-08-18T00:00:00.000+0800',
-            'endDate': '2021-11-18T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14167,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-08-18T00:00:00.000+0800',
-            'endDate': '2021-11-18T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': [{
-              'processScheduleId': 860,
-              'processScheduleName': 'zhngdzg:墙体抹灰(内抹灰)',
-              'startDate': '2021-08-18T00:00:00.000+0800',
-              'endDate': '2021-08-20T00:00:00.000+0800',
-              'status': 4,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
-              'processScheduleId': 861,
-              'processScheduleName': 'zhngdzg:墙体抹灰(内抹灰，外抹灰)',
-              'startDate': '2021-08-18T00:00:00.000+0800',
-              'endDate': '2021-08-20T00:00:00.000+0800',
-              'status': 4,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14168,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-08-18T00:00:00.000+0800',
-            'endDate': '2021-10-18T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': [{
-              'processScheduleId': 692,
-              'processScheduleName': '张仲秋:墙体抹灰(内抹灰)',
-              'startDate': '2021-08-18T00:00:00.000+0800',
-              'endDate': '2021-08-19T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14169,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-08-18T00:00:00.000+0800',
-            'endDate': '2021-10-18T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': [{
-              'processScheduleId': 653,
-              'processScheduleName': '张仲秋:墙体抹灰(内抹灰，外抹灰)',
-              'startDate': '2021-08-18T00:00:00.000+0800',
-              'endDate': '2021-08-18T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14170,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-08-18T00:00:00.000+0800',
-            'endDate': '2021-10-18T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 16.0000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 3,
-            'planningScheduleWorkDays': 19,
-            'processSchedules': [{
-              'processScheduleId': 646,
-              'processScheduleName': '田豪峻:墙体抹灰(内抹灰)',
-              'startDate': '2021-08-20T00:00:00.000+0800',
-              'endDate': '2021-09-07T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14172,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:防水工程',
-            'startDate': '2021-08-18T00:00:00.000+0800',
-            'endDate': '2022-02-09T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 4.0000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 5,
-            'planningScheduleWorkDays': 129,
-            'processSchedules': [{
-              'processScheduleId': 781,
-              'processScheduleName': '田豪峻:阳台、厨卫、露台防水施工',
-              'startDate': '2021-08-18T00:00:00.000+0800',
-              'endDate': '2021-12-18T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 5.0000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 651,
-              'processScheduleName': '金艳:地下室防水施工',
-              'startDate': '2021-08-25T00:00:00.000+0800',
-              'endDate': '2021-09-25T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 1019,
-              'processScheduleName': '豆金贤:屋面防水施工',
-              'startDate': '2021-11-09T00:00:00.000+0800',
-              'endDate': '2021-11-09T00:00:00.000+0800',
-              'status': 3,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14174,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:屋面工程',
-            'startDate': '2021-08-24T00:00:00.000+0800',
-            'endDate': '2021-12-24T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 3.0000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 1,
-            'planningScheduleWorkDays': 32,
-            'processSchedules': [{
-              'processScheduleId': 645,
-              'processScheduleName': '田豪峻:屋面面层施工',
-              'startDate': '2021-08-24T00:00:00.000+0800',
-              'endDate': '2021-08-24T00:00:00.000+0800',
-              'status': 4,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }, {
-              'processScheduleId': 641,
-              'processScheduleName': '鲍磊磊:屋面装饰层施工',
-              'startDate': '2021-08-25T00:00:00.000+0800',
-              'endDate': '2021-09-25T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 3.0000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 14210,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:结构工程',
-            'startDate': '2021-08-27T00:00:00.000+0800',
-            'endDate': '2021-08-31T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 20.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 1,
-            'planningScheduleWorkDays': 5,
-            'processSchedules': [{
-              'processScheduleId': 689,
-              'processScheduleName': '田豪峻:混凝土浇筑',
-              'startDate': '2021-08-27T00:00:00.000+0800',
-              'endDate': '2021-08-31T00:00:00.000+0800',
-              'status': 2,
-              'actuleRatio': null,
-              'emergencyDegree': 0
-            }]
-          }, {
-            'engineeringScheduleId': 14230,
-            'milestoneId': 584,
-            'engineeringName': '乙方工程建设:桩基工程',
-            'startDate': '2021-08-31T00:00:00.000+0800',
-            'endDate': '2021-08-31T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14237,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:屋面工程',
-            'startDate': '2021-09-08T00:00:00.000+0800',
-            'endDate': '2022-02-09T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14260,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:抹灰工程',
-            'startDate': '2021-09-13T00:00:00.000+0800',
-            'endDate': '2022-02-09T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': null,
-            'emergencyDegree': 0,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 0,
-            'processSchedules': []
-          }, {
-            'engineeringScheduleId': 14276,
-            'milestoneId': 0,
-            'engineeringName': '乙方工程建设:机电安装工程',
-            'startDate': '2021-09-17T00:00:00.000+0800',
-            'endDate': '2022-02-09T00:00:00.000+0800',
-            'status': 1,
-            'actuleRatio': 7.0000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 10,
-            'planningScheduleWorkDays': 134,
-            'processSchedules': [{
-              'processScheduleId': 814,
-              'processScheduleName': '张春林:采暖工程施工',
-              'startDate': '2021-09-17T00:00:00.000+0800',
-              'endDate': '2022-02-09T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 4.0000,
-              'emergencyDegree': 1
-            }, {
-              'processScheduleId': 815,
-              'processScheduleName': '田豪峻:空调工程施工',
-              'startDate': '2021-09-17T00:00:00.000+0800',
-              'endDate': '2022-02-09T00:00:00.000+0800',
-              'status': 1,
-              'actuleRatio': 10.000,
-              'emergencyDegree': 1
-            }]
-          }, {
-            'engineeringScheduleId': 14506,
-            'milestoneId': 587,
-            'engineeringName': '乙方工程建设:室内装修工程',
-            'startDate': '2021-10-25T00:00:00.000+0800',
-            'endDate': '2021-10-26T00:00:00.000+0800',
-            'status': 0,
-            'actuleRatio': 0.000,
-            'emergencyDegree': 1,
-            'actualScheduleWorkday': 0,
-            'planningScheduleWorkDays': 1,
-            'processSchedules': [{
-              'processScheduleId': 941,
-              'processScheduleName': 'zhngdzg:精装湿作业(抹灰)',
-              'startDate': '2021-10-25T00:00:00.000+0800',
-              'endDate': '2021-10-25T00:00:00.000+0800',
-              'status': 0,
-              'actuleRatio': 0.000,
-              'emergencyDegree': 1
             }]
           }],
           'projectMilestoneList': [{
-            'name': '外饰面完成',
-            'code': '5',
-            'deadline': '2021-07-09T00:00:00.000+0800',
+            'name': '开工',
+            'deadline': '2019-08-02T00:00:00.000+0800',
             'emergencyDegree': 0,
-            'milestoneRate': 0
           }, {
             'name': '竣备',
-            'code': '8',
-            'deadline': '2021-07-29T00:00:00.000+0800',
+            'deadline': '2019-08-12T00:00:00.000+0800',
             'emergencyDegree': 0,
-            'milestoneRate': 0
-          }, {
-            'name': '主体结构完成',
-            'code': '2',
-            'deadline': '2021-07-30T00:00:00.000+0800',
-            'emergencyDegree': 0,
-            'milestoneRate': 0
           }, {
             'name': '砌体完成',
-            'code': '3',
             'deadline': '2021-07-31T00:00:00.000+0800',
             'emergencyDegree': 1,
-            'milestoneRate': 0.5000
           }, {
-            'name': '开工',
-            'code': '7',
+            'name': '主体结构完成',
             'deadline': '2021-08-04T00:00:00.000+0800',
+            'emergencyDegree': 1,
+          }, {
+            'name': '外饰面完成',
+            'deadline': '2021-07-30T00:00:00.000+0800',
             'emergencyDegree': 0,
-            'milestoneRate': 0
-          }, {
-            'name': '景观完成',
-            'code': '6',
-            'deadline': '2021-08-26T00:00:00.000+0800',
-            'emergencyDegree': 1,
-            'milestoneRate': 0.0000
-          }, {
-            'name': '出±0',
-            'code': '1',
-            'deadline': '2021-08-31T00:00:00.000+0800',
-            'emergencyDegree': 1,
-            'milestoneRate': 0.0323
           }, {
             'name': '室内装饰完成',
-            'code': '4',
-            'deadline': '2021-10-26T00:00:00.000+0800',
+            'deadline': '2021-10-01T00:00:00.000+0800',
             'emergencyDegree': 1,
-            'milestoneRate': 0.0000
+          }, {
+            'name': '景观完成',
+            'deadline': '2021-12-26T00:00:00.000+0800',
+            'emergencyDegree': 1,
           }]
         },
       }

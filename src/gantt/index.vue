@@ -294,53 +294,6 @@ export default {
               },
             },
           },
-          {
-            ...xAxisBase,
-            offset: 28,
-            axisLabel: {
-              margin: 4,
-              // echarts自带季度有bug
-              // formatter: 'Q{Q}',
-              // index需要从1计起 多轴对应dataZoom's slider难以控制 这里最好还是把季度去掉 没有任何意义
-              formatter(value, index) {
-                const month = new Date(value).getMonth();
-                const date  = new Date(value).getDate();
-                if (index === 1) {
-                  if (month < 3) {
-                    return 'Q1';
-                  } else if (month < 6) {
-                    return 'Q2';
-                  } else if (month < 9) {
-                    return 'Q3';
-                  } else {
-                    return 'Q4';
-                  }
-                } else if (date === 1) {
-                  if (month === 0) {
-                    return 'Q1';
-                  } else if (month === 3) {
-                    return 'Q2';
-                  } else if (month === 6) {
-                    return 'Q3';
-                  } else if (month === 9) {
-                    return 'Q4';
-                  }
-                }
-              },
-              // showMinLabel: false,
-              // showMaxLabel: false,
-              color: '#848484',
-              fontSize: 12,
-              align: 'left',
-            },
-            axisLine: {
-              show: true,
-              lineStyle: {
-                color: '#EAEAEA',
-                width: 0.5,
-              },
-            },
-          },
         ] : [
           {
             ...xAxisBase,
@@ -391,7 +344,7 @@ export default {
         };
 
         // series
-        const STATUS_MAP = ['未开始', '进行中', '已完工', '待确认', '已拒绝'];
+        const STATUS_MAP = ['未开始', '进行中', '已完工', '已拒绝'];
         const renderCircleItem = (isShowCircle, isExpanded, status) => {
           return {
             type: 'circle',
@@ -436,7 +389,7 @@ export default {
           //   });
           // }
           const yIndex = params.dataIndexInside; // y轴数据index值
-          const { _type, _name, _isExpanded, actuleRatio: actualRatio = 0, status, processSchedules } = this.engineeringScheduleList[yIndex];
+          const { _type, _name, _isExpanded, actualRatio = 0, status, processSchedules } = this.engineeringScheduleList[yIndex];
           const startDate = api.coord([api.value(0), yIndex]); // 开始时间数值转换成坐标系上的点
           const endDate = api.coord([api.value(1), yIndex]); // 结束时间数值转换成坐标系上的点
           const barLength = endDate[0] - startDate[0]; // 长度
@@ -702,7 +655,7 @@ export default {
               ...markLine,
               data: markLine.data.map(item => ({
                 ...item,
-                y: 44,
+                y: 28,
                 label: {
                   show: false,
                 },
@@ -711,17 +664,6 @@ export default {
                 },
                 emphasis: {},
               })),
-            },
-          },
-          // just for xAxis Q1-4
-          {
-            type: 'custom',
-            data: this.engineeringScheduleList.map(item => [new Date(item.startDate).getTime(), new Date(item.endDate).getTime()]),
-            renderItem: () => { return null; },
-            xAxisIndex: 1,
-            encode: {
-              x: [0, 1],
-              y: 0,
             },
           },
           {
