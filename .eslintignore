@@ -1,0 +1,6 @@
+build
+es
+example
+node_modules
+umd
+src/**/*.md
