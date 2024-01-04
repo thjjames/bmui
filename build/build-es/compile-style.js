@@ -11,7 +11,7 @@ function replaceExt(path, ext) {
 
 async function compileCss(filePath) {
   const source = readFileSync(filePath, 'utf-8');
-  const config = await postcssrc({}, join(CWD, 'postcss.config.js'));
+  const config = await postcssrc({}, join(CWD, '.postcssrc'));
   const { css } = await postcss(config.plugins).process(source, {
     from: undefined,
   });
